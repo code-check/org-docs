@@ -1,10 +1,10 @@
 # Codecheck Documentation & Website
 
-Welcome to Codecheck's Documentation Repo!  
+Welcome to Codecheck's Organization Documentation Repo!  
 We use [Mkdocs](http://www.mkdocs.org/) to build the site using only Markdown,
 and we host it by pushing the built HTML pages to [GitHub Pages](http://pages.github.com/).  
 
-This page is live [here](http://code-check.github.io/docs).
+This page is live [here](http://code-check.github.io/org-docs).
 If you just want to view our documentation, I recommend the live page.
 
 ## Get Started
@@ -19,8 +19,8 @@ If you want to work on the site, you will want to install and run a local dev co
 
 ## Dependencies
 
- * [Python3 & Pip3](https://www.python.org/downloads/)
- * Mkdocs (`pip3 install mkdocs`)
+ - [Python3 & Pip3](https://www.python.org/downloads/)
+ - Mkdocs (`pip3 install mkdocs`)
 
 ## Instructions
 
