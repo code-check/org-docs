@@ -70,18 +70,6 @@
 		
 	    </li>
           
-            <li class="toctree-l1">
-		
-	    </li>
-          
-            <li class="toctree-l1">
-		
-	    </li>
-          
-            <li class="toctree-l1">
-		
-	    </li>
-          
             <li class="toctree-l1 current">
 		
     <a class="current" href="./">はじめに</a>
@@ -91,9 +79,17 @@
     
         <ul>
         
-            <li><a class="toctree-l3" href="#codecheck_1">codecheckとは</a></li>
+            <li><a class="toctree-l3" href="#_1">チャレンジの閲覧</a></li>
         
-            <li><a class="toctree-l3" href="#_1">使い方</a></li>
+            <li><a class="toctree-l3" href="#_2">試験の作成</a></li>
+        
+            <li><a class="toctree-l3" href="#_3">試験の配信</a></li>
+        
+            <li><a class="toctree-l3" href="#_4">受験方法</a></li>
+        
+            <li><a class="toctree-l3" href="#_5">受験者一覧</a></li>
+        
+            <li><a class="toctree-l3" href="#_6">採点一覧</a></li>
         
         </ul>
     
@@ -109,11 +105,6 @@
             <li class="toctree-l1">
 		
     <a class="" href="Q-and-A/">よくある質問</a>
-	    </li>
-          
-            <li class="toctree-l1">
-		
-    <a class="" href="reference_users/">リファレンス</a>
 	    </li>
           
             <li class="toctree-l1">
@@ -154,38 +145,122 @@
             <div class="section">
               
                 <h1 id="codecheck">codecheckドキュメンテーション</h1>
-<p>codecheckのドキュメンテーションにようこそ！</p>
-<h2 id="codecheck_1">codecheckとは</h2>
+<p>codecheckの組織向けドキュメンテーションにようこそ！</p>
 <p>codecheckとは、実践的なプログラミング問題をオンラインエディタやGitHubと連携して問題を回答するプログラミング試験サービスです。</p>
-<h2 id="_1">使い方</h2>
-<ul>
-<li>まずは<a href="https://app.code-check.io/auth/signup">ユーザー登録</a>をしてください</li>
-<li>次に、<a href="https://app.code-check.io/orgs/codecheck/challenges/77">サンプル問題</a>を解答してみてください。</li>
-</ul>
-<p><img alt="start_challenge_web_editor" src="./images/start_challenge_web_editor.gif" /></p>
 <hr />
-<h4 id="_2">言語設定の変更</h4>
-<p>言語設定の変更は設定内のアカウントセッティングから行うことが出来ます。
-プルダウンを日本語に切り替えて「セット」ボタンをクリックすると設定が反映されます。</p>
-<p><img alt="s2" src="./images/s2.png" /></p>
-<h4 id="github">ソーシャルアカウント（GitHubアカウント）の追加</h4>
-<p>codecheckは、GitHubを活用してチャレンジを回答することが出来ます。<br />
-しかし、その場合は、お持ちのGitHubアカウントを連携する必要があります。
-設定-&gt;ソーシャル設定<br />
-に移動して以下の接続というリンクをクリックしてください。
-<img alt="s14" src="./images/s14.png" /><br />
-GitHubにアクセスしてアプリの連携承認後、codecheck内に戻ってアカウント名が表示されていれば成功です。</p>
-<h4 id="_3">回答内容の確認</h4>
-<p>回答した内容を提出します。提出する回答は、回答内容を一度は「Save（保存）」をしたもののみになります。
-<img alt="s8" src="./images/s8.png" /><br />
-上記のように、ステータスが「保存」となっているかどうかを確認してください。
-「作業中」ものは編集中ですが保存はされていません。制限時間が懲戒した際等、回答内容は提出されませんので、必ず「保存」をするようにしてください。</p>
-<h4 id="_4">回答の提出</h4>
-<p>回答の提出は、試験中の画面右上の「提出」ボタンをクリックすることでおこなわれます。
-改めて、回答したチャレンジが「保存」となっているかどうか提出前に確かめておきましょう。</p>
-<h4 id="_5">制限時間超過の場合</h4>
-<p>制限時間が超過した場合は、自動的に「保存」されている問題が回答として提出されます。
-必ず制限時間内に「保存」した回答内容を「提出」するように心がけましょう。</p>
+<h2 id="_1">チャレンジの閲覧</h2>
+<p>チャレンジは試験の設問として使われる、1-2時間程度で解ける、<br />
+受験者の特定の能力を判定する問題です。<br />
+チャレンジの閲覧・インポート・設定の変更は当メニューからできます。<br />
+<img alt="チャレンジメニュー" src="./images/challenge_menu_hl.png" /></p>
+<p>任意のチャレンジの名前をクリックしてチャレンジの問題文・難易度・所要事項等を確認することができます。<br />
+<img alt="チャレンジをクリック" src="./images/click_challenge_hl.png" /></p>
+<p>以下の通り説明文が表示されます。<br />
+右上のプレビューボタンをクリックすると、受験者が実際に受験した際に利用するエディタ画面を確認することができます。
+<img alt="プレビューボタン" src="./images/preview_button_hl.png" /></p>
+<p>以下のようにエディタ内で選択したチャレンジを確認することができます。
+<img alt="エディター画面" src="./images/editor_interface_sm.png" />
+（なお、当プレビューモード内で編集は反映されません。<br />
+試しに受験したい場合は自分のメールアドレスに試験を配信してみてください。）</p>
+<hr />
+<h2 id="_2">試験の作成</h2>
+<p>試験は2-3チャレンジで構成され、<br />
+応募要件に受験者の能力が達しているかが判定できるものです。<br />
+試験の作成・設定・配信は当メニューからできます。<br />
+<img alt="試験メニュー" src="./images/exam_menu_hl.png" /></p>
+<p>右上の「試験の作成」をクリックして試験の作成を開始できます。
+<img alt="試験作成ボタン" src="./images/create_exam_hl.png" /></p>
+<p>受験者向けの任意の名前を記入します。<br />
+<img alt="試験名の記入" src="./images/name_exam_hl.png" /></p>
+<p>初めに、チャレンジ選択画面が表示されます。<br />
+任意のチャレンジの「追加ボタン」をクリックしてください。<br />
+<img alt="チャレンジの追加" src="./images/add_challenge_hl.png" /></p>
+<p>クリックしたチャレンジが選択した順番に表示されます。
+「次へ」をクリックしてチャレンジ詳細文の記入に進みます。
+<img alt="チャレンジから次に進む" src="./images/next_challenge_hl.png" /></p>
+<p>受験者に表示する試験の説明等を記入します。<br />
+「詳細」項目のみ必須項目となっていますので、必ず記入ください。
+<img alt="詳細文を入力" src="./images/enter_details_hl.png" />
+また、推奨している注意事項は<a href="https://app.code-check.io/urlexams/25d21f95-1db7-4fd2-b783-dac3fc92af65">当サンプル試験</a>より確認できます。</p>
+<p>「次へ」をクリックするとレビュワー選択画面に映ります。<br />
+試験結果をレビューさせたいエンジニア等のユーザーを選択すると、<br />
+後に各提出物にコメントや:+1:、:-1:を追加することができます。<br />
+(また、レビュワーを選択せずに次に進むことも可能です。)
+<img alt="レビュワーを選択する" src="./images/select_reviewers_sm.png" /></p>
+<p>次にエントリーフォーム作成画面が表示されます。<br />
+こちらは試験開始前に受験者から取得したい諸情報を入力させるエントリーフォームを自由に作成することができる画面です。
+こちらも任意で追加できる機能です。<br />
+<img alt="" src="./images/create_entry_form_sm.png" />
+<!-- また、ATSとの連携をさせたい場合は、以下の「ATS連携推奨利用方法」をご覧ください。 --></p>
+<p>最後に設定画面が表示されます。<br />
+一番頭の「チャレンジごとの制限時間」では受験者が各チャレンジを解くのに与えられる時間を制限することができます。<br />
+空の場合、受験者は試験全体の提出期限までチャレンジを解答することができます。
+<img alt="" src="./images/exam_settings_challenge_time_limit_hl.png" /></p>
+<p>URL受験機能を利用すると、試験に独自のURL(ウェブアドレス)を付与し、<br />
+URLを知っている誰もが受験できる公開式の試験を運用することが可能です。
+<img alt="" src="./images/url_exam_unchecked_sm.png" /><br />
+チェックをすると、URLの公開期間を設定することが可能です。<br />
+(既定値は試験作成時の翌日からの公開となっています。
+<img alt="" src="./images/url_exam_checked_sm.png" /></p>
+<p>その他の設定を確認した後、<br />
+右上の「保存」をクリックすることで試験の作成が完了します。
+<img alt="試験の保存" src="./images/exam_settings_save_hl.png" /></p>
+<p>試験の作成が完了次第、下の試験概要ページが表示されます。<br />
+<img alt="試験概要" src="./images/exam_outline_sm.png" />  </p>
+<hr />
+<h2 id="_3">試験の配信</h2>
+<p>codecheckでは特定の受験者にメールにて試験を配信することができます。
+まず、試験一覧より配信したい試験の名前をクリックしして試験概要ページをアクセスします。
+<img alt="" src="./images/view_exam_outline_sm.png" /></p>
+<p>次に、右上の「配信」ボタンをクリックします。
+<img alt="" src="./images/deliver_exam_hl.png" /></p>
+<p>試験配信フォーム内に、任意の提出期限日時・題名・本文等を記入します。
+メールアドレスはカンマ(<code>,</code>)で区切ることによって複数アドレスに配信することが可能です。
+<img alt="試験配信フォーム" src="./images/deliver_exam_form_sm.png" /></p>
+<p>全ての項目が記入されたら、右上の「確認」ボタンをクリックします。<br />
+確認画面で内容を再度確認後、「配信」ボタンをクリックして配信は完了します。
+<img alt="" src="./images/confirm_delivery_hl.png" /></p>
+<hr />
+<h2 id="_4">受験方法</h2>
+<p>受験方法については、<a href="https://code-check.github.io/docs/ja/get_started/">受験者向けのチュートリアル</a>をご覧ください。</p>
+<hr />
+<h2 id="_5">受験者一覧</h2>
+<p>受験者とは試験が配信されたユーザーです。<br />
+受験者の状態・解答中のチャレンジの詳細・現在のテストケース点数は当メニューから確認できます。<br />
+<img alt="受験者メニュー" src="./images/applicants_menu_hl.png" /></p>
+<p>受験者の一覧を試験別に閲覧するには以下フィルターを利用ください。
+<img alt="" src="./images/applicants_filter_sm.png" /></p>
+<p>また、受験者のステータス別に閲覧することも以下タブより可能です。
+<img alt="" src="./images/applicants_tabs_sm.png" />
+ステータスの説明は以下のとおりとなります：
+- 未着手・未読: 試験を開始していない受験者
+- 解答中:　試験を開始して、まだ提出・時間切れになっていない受験者
+- 提出済み: 試験を提出した受験者
+- 時間切れ: 試験を開始しないまま提出期限に到達した受験者
+- アーカイブ済み: アーカイブ機能を利用してそれ以外のステータスから除外された古い受験者</p>
+<p>さらに、各列の冒頭をクリックすることによって表示順を変えることが可能です。
+<img alt="" src="./images/applicants_sort_sm.png" /></p>
+<p>受験者の提出を確認するには、受験者一覧より該当する受験者の「表示」ボタンをクリックします。
+<img alt="" src="./images/view_submission_hl.png" /></p>
+<p>提出の詳細が表示されます。
+<img alt="" src="./images/submission_top_sm.png" /></p>
+<p>各チャレンジごとに、スコア及びテストケース件数(<code>成功件数 / テスト総数</code>)が表示されます。<br />
+<img alt="" src="./images/score_log_sm.png" /><br />
+codecheckでは、採点の誤りを回避するため、試験の提出後に最低３回採点処理を実行しています。<br />
+この処理が完了した際に「採点済み」としています。<br />
+ですので、選考の判断材料としては上の図のように最低３回採点処理が行われ、<br />
+「採点済み」となるまでお待ちすることを推奨しております。</p>
+<p>「Webエディタで開く」をクリックすると、受験者の提出したコードを実際に閲覧・実行することができます。
+<img alt="" src="./images/submission_web_editor_hl.png" /></p>
+<p>「採点の詳細」では、各チャレンジの採点項目（テスト内容）が表示され、各行が１点の配点となっています。
+<img alt="" src="./images/test_output_sm.png" /></p>
+<p>「解答の経過」は点数の変化を時系列上に折れ線グラフにしたものです。解答者の保存(もしくはgit push)毎に点を置いています。
+<img alt="" src="./images/history_graph_sm.png" /></p>
+<hr />
+<h2 id="_6">採点一覧</h2>
+<p>「採点」には受験者が提出した試験のみが表示されます。<br />
+最終的な解答時間・テストケース点数等の提出済試験の詳細は当メニューから確認くださいください。<br />
+<img alt="採点メニュー" src="./images/submissions_menu_hl.png" /></p>
               
             </div>
           </div>
