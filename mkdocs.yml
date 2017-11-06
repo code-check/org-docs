@@ -15,13 +15,13 @@ pages:
 ## English pages:
 - "": index.md            # DO NOT change this path. Build.py will fail.
 - Welcome:                en/index.md # DO NOT change this path. Build.py will fail.
-- Organizing Challenges: en/guide_organizing_challenges.md
-- Reference:              en/reference_users.md
-- Organizer Reference:   en/reference_organizers.md
+# - Organizing Challenges: en/guide_organizing_challenges.md
+# - Reference:              en/reference_users.md
+# - Organizer Reference:   en/reference_organizers.md
 ##
 ## Japanese Pages:
 - はじめに:                ja/index.md # DO NOT change this path. Build.py will fail.
 - チャレンジの運営:       ja/guide_organizing_challenges.md
 - よくある質問:            ja/Q-and-A.md
-- リファレンス:            ja/reference_users.md
+# - リファレンス:            ja/reference_users.md
 - 運営者リファレンス:      ja/reference_organizers.md
