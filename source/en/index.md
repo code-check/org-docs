@@ -1,6 +1,6 @@
 # Welcome
 
-Welcome to codecheck's documentation!
+Welcome to codecheck's organization documentation!
 
 ## What's codecheck?
 
